@@ -1,0 +1,28 @@
+#parent{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    background-color: white;
+    
+
+}
+#parent img{
+    width: 500px;
+    height: 700px;
+    float: left;
+}
+#parent > div{
+background-color:white;
+color: rgb(11, 4, 4);
+font-weight: bolder;
+border: 0px solid black;
+margin : 10px;
+padding:12px;
+text-align: center;
+justify-content: center;
+padding-top: 250px;
+font-size: 26px;
+margin-left: 50px;
+}
